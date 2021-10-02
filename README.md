@@ -16,7 +16,11 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 
 The app allows to browse events, select a single event and filter for events. 
+
 •	There is a starting page with a list of featured events.
+
 •	There is a /events route to the Events page with all events. 
+
 •	Users can click an event to see details of that event to potentially sign up for it and book it on Events Details page (/events/<some-id> route). 
+  
 •	There is a feature that the users can filter the events by year and month (route events/…slug with a dynamic slug segment)
